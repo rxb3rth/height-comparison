@@ -1,4 +1,5 @@
 <template>
+  <h1>Height Comparison</h1>
   <div class="view-wrapper">
     <ViewSetup @click="handleClick" />
     <ViewScale :people="people" />
@@ -35,6 +36,7 @@ body {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 .view-wrapper {
   display: grid;
